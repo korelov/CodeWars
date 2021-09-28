@@ -3,6 +3,9 @@ public class Well_of_Ideas {
 
     public static String well(String[] x) {
         String result = null;
+        if (x == null || x.length == 0) {
+            result = "Fail!";
+        }
         int count = 0;
         for (int i = 0; i < x.length; i++) {
             if (x[i] == "good") {
@@ -25,10 +28,10 @@ public class Well_of_Ideas {
         String[] arr = new String[]{"good", "bad", "bad", "bad", "bad", "good", "bad", "bad", "good"};
         System.out.println(well(arr));
 
-        String[] arr1 = new String[] {"good", "bad", "bad", "bad", "bad"};
+        String[] arr1 = new String[]{"good", "bad", "bad", "bad", "bad"};
         System.out.println(well(arr1));
 
-        String[] arr2 = new String[] {"bad", "bad", "bad"};
+        String[] arr2 = new String[]{"bad", "bad", "bad"};
         System.out.println(well(arr2));
     }
 }
