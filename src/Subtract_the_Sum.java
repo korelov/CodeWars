@@ -16,6 +16,7 @@ public class Subtract_the_Sum {
                     sum += temp1.charAt(i) - 48;
                 }
                 result = n - sum;
+                result--;
             }
         } else {
             result = n;
