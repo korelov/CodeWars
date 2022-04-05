@@ -4,7 +4,10 @@ package kyu_7;
 
 public class Maximum_Length_Difference {
     public static int mxdiflg(String[] a1, String[] a2) {
-        int res = 0;
+
+        if (a1.length == 0 || a2.length == 0) {
+            return -1;
+        }
         int max1 = Integer.MIN_VALUE;
         int min1 = Integer.MAX_VALUE;
 
@@ -26,10 +29,7 @@ public class Maximum_Length_Difference {
                 min2 = a2[i].length();
             }
         }
-        System.out.println(min1);
-        System.out.println(max1);
-        System.out.println(max2);
-        return Math.abs(max1 - max2);
+        return Math.max(Math.abs(min1 - max2), Math.abs(min2 - max1));
     }
 
     public static void main(String[] args) {
@@ -37,7 +37,5 @@ public class Maximum_Length_Difference {
         String[] a1 = {"hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"};
         String[] a2 = {"cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"};
         System.out.println(mxdiflg(a1, a2)); // --> 13
-
     }
-
 }
