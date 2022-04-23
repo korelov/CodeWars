@@ -4,14 +4,14 @@ package kyu_6;
 
 public class Break_camelCase {
     public static String camelCase(String input) {
-        String res ="";
-        String temp =input.toLowerCase();
+        String res = "";
+        String temp = input.toLowerCase();
 
         for (int i = 0; i < input.length(); i++) {
-            if(input.charAt(i)==temp.charAt(i)){
-                res+=input.charAt(i);
+            if (input.charAt(i) == temp.charAt(i)) {
+                res += input.charAt(i);
             } else {
-                res+=" "+input.charAt(i);
+                res += " " + input.charAt(i);
             }
         }
         return res;
