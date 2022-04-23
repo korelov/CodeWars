@@ -1,3 +1,5 @@
+package kyu_8;
+
 import java.util.Arrays;
 import java.util.List;
 //https://www.codewars.com/kata/57eaeb9578748ff92a000009/train/java

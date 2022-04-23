@@ -1,4 +1,4 @@
-//https://www.codewars.com/kata/5808e2006b65bff35500008f/train/java
+package kyu_8;//https://www.codewars.com/kata/5808e2006b65bff35500008f/train/java
 
 public class Find_the_position {
     public static String position(char alphabet) {

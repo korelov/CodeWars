@@ -1,4 +1,4 @@
-//https://www.codewars.com/kata/577a98a6ae28071780000989/train/java
+package kyu_8;//https://www.codewars.com/kata/577a98a6ae28071780000989/train/java
 
 public class Find_Maximum_and_Minimum {
 

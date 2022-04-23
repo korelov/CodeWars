@@ -1,3 +1,5 @@
+package kyu_8;
+
 //https://www.codewars.com/kata/5bb904724c47249b10000131/train/java
 public class Total_amount_of_points {
 

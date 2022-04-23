@@ -1,4 +1,4 @@
-//https://www.codewars.com/kata/545afd0761aa4c3055001386/train/java
+package kyu_8;//https://www.codewars.com/kata/545afd0761aa4c3055001386/train/java
 
 import java.util.Arrays;
 

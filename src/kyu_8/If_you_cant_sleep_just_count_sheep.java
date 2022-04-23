@@ -1,4 +1,4 @@
-//https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
+package kyu_8;//https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
 
 public class If_you_cant_sleep_just_count_sheep {
     public static String countingSheep(int num) {

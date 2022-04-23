@@ -1,4 +1,4 @@
-//https://www.codewars.com/kata/5a34b80155519e1a00000009/train/java
+package kyu_8;//https://www.codewars.com/kata/5a34b80155519e1a00000009/train/java
 
 import java.util.Arrays;
 public class Multiple_of_index {

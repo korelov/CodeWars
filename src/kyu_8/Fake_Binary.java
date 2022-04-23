@@ -1,3 +1,5 @@
+package kyu_8;
+
 //https://www.codewars.com/kata/57eae65a4321032ce000002d/train/java
 public class Fake_Binary {
     public static String fakeBin(String numberString) {

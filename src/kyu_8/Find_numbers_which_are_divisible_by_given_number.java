@@ -1,4 +1,8 @@
+package kyu_8;
+
 import java.util.Arrays;
+
+// https://www.codewars.com/kata/55edaba99da3a9c84000003b
 
 public class Find_numbers_which_are_divisible_by_given_number {
     public static int[] divisibleBy(int[] numbers, int divider) {

@@ -1,3 +1,5 @@
+package kyu_8;
+
 import java.util.Arrays;
 //https://www.codewars.com/kata/56b29582461215098d00000f/train/java
 public class Lario_and_Muigi_Pipe_Problem {

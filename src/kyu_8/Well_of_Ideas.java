@@ -1,3 +1,5 @@
+package kyu_8;
+
 //https://www.codewars.com/kata/57f222ce69e09c3630000212/train/java
 public class Well_of_Ideas {
 

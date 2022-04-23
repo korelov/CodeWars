@@ -1,4 +1,4 @@
-//https://www.codewars.com/kata/57cfdf34902f6ba3d300001e/train/java
+package kyu_8;//https://www.codewars.com/kata/57cfdf34902f6ba3d300001e/train/java
 import java.util.Arrays;
 
 public class Sort_and_Star {

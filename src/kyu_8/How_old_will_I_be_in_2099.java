@@ -1,3 +1,5 @@
+package kyu_8;
+
 //https://www.codewars.com/kata/5761a717780f8950ce001473/train/java
 public class How_old_will_I_be_in_2099 {
 

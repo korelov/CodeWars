@@ -1,4 +1,4 @@
-//https://www.codewars.com/kata/5f70c883e10f9e0001c89673/train/java
+package kyu_8;//https://www.codewars.com/kata/5f70c883e10f9e0001c89673/train/java
 import java.util.Arrays;
 
 public class Gravity_Flip {

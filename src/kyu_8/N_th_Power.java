@@ -1,3 +1,5 @@
+package kyu_8;
+
 //https://www.codewars.com/kata/57d814e4950d8489720008db/train/java
 public class N_th_Power {
     public static int nthPower(int[] array, int n) {

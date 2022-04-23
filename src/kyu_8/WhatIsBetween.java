@@ -1,4 +1,4 @@
-//https://www.codewars.com/kata/55ecd718f46fba02e5000029/train/java
+package kyu_8;//https://www.codewars.com/kata/55ecd718f46fba02e5000029/train/java
 
 public class WhatIsBetween {
     public static int[] between(int a, int b) {

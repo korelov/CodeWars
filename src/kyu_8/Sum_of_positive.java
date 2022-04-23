@@ -1,3 +1,5 @@
+package kyu_8;
+
 //https://www.codewars.com/kata/5715eaedb436cf5606000381/train/java
 public class Sum_of_positive {
     public static int sum(int[] arr) {
