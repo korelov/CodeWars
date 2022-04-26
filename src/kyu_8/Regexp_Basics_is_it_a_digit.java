@@ -7,7 +7,7 @@ public class Regexp_Basics_is_it_a_digit {
     public static boolean isDigit(String s) {
         try {
             int a = Integer.parseInt(s);
-            if (a > 0 && a < 10) {
+            if (a >= 0 && a <= 9)  {
                 return true;
             } else {
                 return false;
