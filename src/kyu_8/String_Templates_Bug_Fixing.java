@@ -1,4 +1,4 @@
-package inProgress;
+package kyu_8;
 
 // https://www.codewars.com/kata/55c90cad4b0fe31a7200001f/train/java
 
