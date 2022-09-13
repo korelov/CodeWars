@@ -1,4 +1,4 @@
-package kyu_8;
+package kyu_7;
 
 //https://www.codewars.com/kata/5a25ac6ac5e284cfbe000111/train/java
 
