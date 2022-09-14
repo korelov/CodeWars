@@ -17,5 +17,6 @@ public class Stop_gninnipS_My_sdroW {
     public static void main(String[] args) {
         System.out.println(spinWords("Welcome"));
         System.out.println(spinWords("Hey fellow warriors"));
+        System.out.println(spinWords("This is another test"));
     }
 }
