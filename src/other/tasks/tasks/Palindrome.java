@@ -5,7 +5,7 @@ import java.util.List;
 public class Palindrome {
 
     private static boolean palindromeOne(String string) {
-        if (string == null || string.isEmpty()) {
+        if (string == null || string.trim().isEmpty()) {
             return false;
         }
         String lowerCase = string.replaceAll("[^а-яА-Яa-zA-Z]", "").toLowerCase();
@@ -17,7 +17,7 @@ public class Palindrome {
     }
 
     private static boolean palindromeTwo(String string) {
-        if (string == null || string.isEmpty()) {
+        if (string == null || string.trim().isEmpty()) {
             return false;
         }
         String lowerCase = string.replaceAll("[^а-яА-Яa-zA-Z]", "").toLowerCase();
@@ -38,6 +38,7 @@ public class Palindrome {
 
         System.out.println(palindromeOne(null));
         System.out.println(palindromeOne(""));
+        System.out.println(palindromeOne(" "));
         for (String string : stringListPalindrome) {
             System.out.println("Это палиндром (вариант один) " + palindromeOne(string));
             System.out.println("Это палиндром (вариант два) " + palindromeTwo(string));
