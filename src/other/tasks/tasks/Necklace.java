@@ -53,7 +53,7 @@ public class Necklace {
     }
 
     private static void printResult(List<Integer> humanBag, int diamondCount, int emeraldCount) {
-        System.out.printf("У первого человека в сумке %d алмаза(ов), %d изумруда(ов), содержание сумки %s\n"
+        System.out.printf("У человека в сумке %d алмаза(ов), %d изумруда(ов), содержание сумки %s\n"
                 , diamondCount, emeraldCount, humanBag);
     }
 
