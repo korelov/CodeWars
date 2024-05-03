@@ -12,13 +12,12 @@ public class Tribonacci_Sequence {
             doubles[i] = s[i];
         }
         for (int i = 3; i < doubles.length; i++) {
-            doubles[i]= doubles[i-3]+ doubles[i-2]+ doubles[i-1];
+            doubles[i] = doubles[i - 3] + doubles[i - 2] + doubles[i - 1];
         }
         return doubles;
     }
 
     public static void main(String[] args) {
-
         System.out.println(Arrays.toString(tribonacci(new double[]{1, 1, 1}, 10)));
         System.out.println(Arrays.toString(tribonacci(new double[]{0, 0, 1}, 10)));
         System.out.println(Arrays.toString(tribonacci(new double[]{0, 1, 1}, 10)));

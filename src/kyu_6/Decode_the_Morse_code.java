@@ -20,7 +20,6 @@ public class Decode_the_Morse_code {
                 result.append(result1);
             }
         }
-
         return result.toString().trim();
     }
 
